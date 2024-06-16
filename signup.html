@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <header>Create an account</header>
+        <div id="bar"></div>
+        <div class="inputfield">
+          <input
+            type="text"
+            id="input"
+            placeholder="Create username"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter email address"
+            required
+          />
+          <span id="requirements">-must enter @gmail.com</span>
+          <input
+            type="password"
+            id="paws"
+            placeholder="Create strong password"
+            required
+          /><i id="eye-icon" style="font-size:20px" class="fa">&#xf06e;</i>
+        </div>
+        <div class="gen-paws-div">
+          <a href="pawsgenerator.html">Generate Password</a>
+        </div>
+        <div class="signup-div">
+          <input type="button" id="signup-btn" value="Sign up" />
+        </div>
+        <div class="login-div">
+          <span>Already have account?</span>
+          <a href="index.html">Log in</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>

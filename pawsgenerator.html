@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pawsgenerator.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Poppins&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="arrow-div">
+          <a href="signup.html"><span id="left-arrow">&#129120;</span></a>
+        </div>
+        <h2>Password Generator</h2>
+        <div class="bar"></div>
+        <div class="selectOption">
+          <h4>Choose length: </h4>
+          <select name="number" class="select" id="numbers">
+          </select>
+        </div>
+        <input type="text" id="input" disabled />
+        <button type="button" id="copyBtn"><i class="fa fa-copy"></i></button>
+        <button type="button" id="btn">Generate Password</button>
+      </div>
+    </div>
+
+    <script src="pawsgenerator.js"></script>
+  </body>
+</html>
